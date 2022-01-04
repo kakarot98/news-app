@@ -2,7 +2,7 @@ import {Toolbar} from '../components/Toolbar'
 import styles from '../styles/EOM.module.css'
 
 export const EOM = ({employee}) => {
-    console.log(employee)
+    // console.log(employee)
     return (
         <div className="page-container">
 

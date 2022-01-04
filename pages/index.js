@@ -1,11 +1,19 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import {Toolbar} from '../components/Toolbar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <>
-      Hello world
-    </>
+    <div className='page-container'>
+
+      <Toolbar />
+
+      <div className={styles.main}>
+        <h1>News App in Next.js</h1>
+
+        <h3>Latest Daily news articles</h3>
+      </div>
+    </div>
   )
 }
